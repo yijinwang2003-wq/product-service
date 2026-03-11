@@ -1,5 +1,5 @@
 # Product Service
-
+Release version 1.0.0
 REST API service responsible for managing the product catalog in the e-commerce platform.
 
 ## Tech Stack
