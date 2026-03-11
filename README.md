@@ -1,6 +1,5 @@
 # Product Service
-
-REST API service responsible for managing the product catalog in the e-commerce platform.
+REST API service responsible for managing the product catalog (hotfix)
 
 ## Tech Stack
 - Python
