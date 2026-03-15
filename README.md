@@ -29,3 +29,9 @@ This repository follows the **Git Flow branching strategy**:
 - feature/* → new feature development
 - release/* → preparing production release
 - hotfix/* → urgent production fixes
+
+## Kubernetes Deployment Strategy
+
+The microservices are deployed using Kubernetes Deployments with a RollingUpdate strategy.
+This ensures that new pods are gradually created while old pods are terminated,
+minimizing downtime during application updates.

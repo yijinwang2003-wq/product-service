@@ -1,5 +1,14 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return {"message": "Product service is running"}
+
+@app.route("/health")
 def health():
     return {"status": "ok"}
 
-def get_products():
-    return []
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
